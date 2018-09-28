@@ -1,0 +1,3 @@
+Se realizó una prueba de Struts2 sin incluir maven (me daba problemas). Se usó la versión 2.3.35 (la más actual estable del momento).
+
+Al ejecutar dio problema con el FilterDipatcher. Se resolvió agregando también las librerías en Deployment Assembly --> Add -->Java Build Path Entries (Propiedades del proyecto). Sacado de https://stackoverflow.com/questions/5814036/java-lang-classnotfoundexception-org-apache-struts2-dispatcher-filterdispatcher
